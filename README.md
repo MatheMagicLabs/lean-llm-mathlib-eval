@@ -6,7 +6,7 @@ theorems that were added to Mathlib *after* the models' training data (contamina
 Author: **Vincent Weinreich**. Experiments run in September 2026.
 
 > **Note on authorship.** The `.lean` proofs in `proofs/` were **written by an LLM** (Claude, configured model
-> `claude-opus-5-5`) and checked by Lean. The experimental design, pre-registrations, task selection,
+> `claude-opus-5-5` and `Deepsek-4-Pro`) and checked by Lean. The experimental design, pre-registrations, task selection,
 > verification pipeline and analysis are my work.
 
 ## Setup
