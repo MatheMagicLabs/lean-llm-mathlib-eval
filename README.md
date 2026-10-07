@@ -3,7 +3,7 @@
 Three pre-registered experiments on large language models writing **Lean 4 / Mathlib** proofs, using only
 theorems that were added to Mathlib *after* the models' training data (contamination-controlled).
 
-Author: **Vincent Weinreich** (M.Sc. Mathematics, KIT). Experiments run in September 2026.
+Author: **Vincent Weinreich**. Experiments run in September 2026.
 
 > **Note on authorship.** The `.lean` proofs in `proofs/` were **written by an LLM** (Claude, configured model
 > `claude-opus-5-5`) and checked by Lean. The experimental design, pre-registrations, task selection,
