@@ -62,6 +62,10 @@ exploratory analyses are marked as such.
 - **AWS Cedar, industrial verification code** ([results/aws_cedar.md](results/aws_cedar.md)). The free model Leanstral 1.5
   as an agent proves 139 of 195 recently added Cedar theorems; Claude Opus 5.5 in a tool-using Lean harness proves all 56 that
   remain, so the chain solves **195 / 195 for $12.67** of API cost (about 6.5 ¢ per theorem).
+- **Automatic repair of real Cedar breakages** ([results/proof_repair_cedar.md](results/proof_repair_cedar.md)). Of 106
+  proofs broken by real cedar-spec commits after the model's cutoff, Claude Opus 5.5 repairs **104 (98 %) for $0.23 per
+  repair**, with sibling repairs from the same commit hidden. Showing the broken old proof does not change the success rate
+  but halves the median cost and turns rewrites into small diffs close to the human commit.
 - **Repair from Lean errors beats resampling** ([results/repair_from_lean_errors.md](results/repair_from_lean_errors.md)).
   At an equal budget of 4 Lean checks: Opus 229 vs 204 of 233 fresh theorems, GPT-6 Astra 118 vs 47 of 187. General-purpose
   models extract 1–3 bits per round from Lean's messages; the specialised prover Leanstral extracts none.
